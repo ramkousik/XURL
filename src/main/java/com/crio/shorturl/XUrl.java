@@ -21,7 +21,7 @@ public interface XUrl {
 
   // Delete the mapping between this longUrl and its corresponding shortUrl
   // Do not zero the Hit Count for this longUrl
-  String delete(String longUrl);
+  void delete(String longUrl);
 
 }
 
